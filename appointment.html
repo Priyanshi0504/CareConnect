@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Appointment Form</title>
+    <style>
+
+
+.navbar a {
+	
+	margin: 20px;
+	text-decoration: none;
+ 	font-size: 20px;
+	color: black;
+	font-family: Calibri;
+	font-weight: 400;
+	font-weight: bold;
+	
+}
+
+
+
+.h {
+	margin: -10px 200px;
+
+	font-family:Calibri;
+	font-size:50px;
+	font-weight:bold;
+	color: black;
+	
+}
+
+        body {
+            font-family: Roboto ;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            grid-gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+    <hr color="#223a66"  size="30%">
+
+
+<!-- Navbar-->
+
+
+
+<div class="navbar">
+	<img src="web symbol.jpg" height="8%" style="margin-bottom:-50px; margin-left: 130px; height: 50px;">
+
+	<p class="h"> CareConnect &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="Hanasa.html"> Home </a>
+<a href="about.html"> About </a>
+<a href="service.html"> Services </a>
+<a href="department.html"> Department </a>
+<a href="contact.html"> Contact </a>
+<a href="anonymous.html">Anonymous Counselling</a>
+	</p>
+
+
+
+
+
+</div>
+
+
+<br><br>
+
+<div class="container">
+    <h2>Medical Appointment Form</h2>
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="appointment-date">Appointment Date:</label>
+        <input type="date" id="appointment-date" name="appointment-date" required>
+
+        <label for="doctor">Select Doctor:</label>
+        <select id="doctor" name="doctor" required>
+            <option value="dr-smith">Dr. Smith</option>
+            <option value="dr-jones">Dr. Jones</option>
+            
+        </select>
+
+        <label for="message">Additional Information:</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit Appointment</button>
+    </form>
+</div>
+
+        <!-- footer -->
+
+        <footer style="margin-left: -1px; width: 1570px; background-color:whitesmoke;">
+
+
+
+            <img src="web symbol.jpg" height="50px" style="margin-top: 80px; margin-left: 200px;">
+
+            
+            <h3 style="margin-left: 280px; margin-top: -60px;font-size: 50px;font-family:Roboto;">CareConnect</h3>
+
+
+            <p style="margin-left: 220px; line-height: 30px; font-weight: 400;color: #6F8BA4; margin-top: -30px;font-family:Roboto;">Tempora dolorem voluptatum nam vero <br>assumenda voluptate, facilis ad eos <br>obcaecati tenetur veritatis eveniet distinctio  <br>possimus.</p>
+
+            <ul><a href="https://www.facebook.com/themfisher"></a></ul>
+
+
+            <h3 style="margin-left: 630px; margin-top: -200px; font-size: 30px; font-family:Roboto;">Department</h3>
+			<hr color="#e83e8c" style=" height: 1px; width: 40px; margin-left: 630px;">
+
+
+            <p style="margin-left: 630px; font-weight: 400;color: #6F8BA4;font-family:Roboto;">Surgery <br> <br>
+                Wome's Health<br><br>
+                Radiology<br><br>
+                Cardiocv<br><br>
+                Medicine</p>
+
+
+                <h3 style="margin-left: 890px; margin-top: -259px; font-size: 30px; font-family:Roboto;">Support</h3>
+				<hr color="#e83e8c" style=" height: 1px; width: 40px; margin-left: 890px;">
+
+                <p style="margin-left: 880px; color: #6F8BA4;font-family:Roboto;">Terms & Conditions <br><br>
+                    Privacy Policy<br><br>
+                    Company Support<br><br>
+                    FAQuestions<br><br>
+                    Company Licence</p>
+
+<br><br><br>
+                    <img src="icon.png" style="margin-left: 200px; height: 50px; margin-top: -100px;font-family:Roboto;">
+                    <br><br>
+                     <p style="margin-left: 210px; color: #6F8BA4;">© Copyright Reserved to CareConnect by <b style="color: black;">Themefisher</b></p>
+
+
+        </footer>
+
+</body>
+</html>
